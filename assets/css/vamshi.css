@@ -4555,7 +4555,7 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
+  /* position: relative; */
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4572,6 +4572,7 @@ input[type="button"].btn-block {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0.8rem 1rem;
+  /* max-height: 10px; */
 }
 
 .navbar > .container,
@@ -4620,6 +4621,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  /* max-height: 10px; */
 }
 
 .navbar-nav .nav-link {
